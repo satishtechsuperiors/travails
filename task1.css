@@ -1,0 +1,759 @@
+
+
+
+body{
+    background-color: #FAF8ED;
+    overflow-x: hidden;
+}
+
+header div:first-child img{ 
+    width: 35px;
+    height: 30px;
+}
+header div:first-child{
+
+    display: flex;
+}
+header div:first-child div {
+    padding-top: 7px;
+}
+.logo{
+    margin-left: 8%;
+}
+
+header{
+    display: flex;
+    width: 100%;
+
+}
+.navbar{
+    display: flex;
+    margin-left: 5%;
+}
+
+.nav{
+    display: flex;
+    padding-top: 2%;
+    transform: translate(50px,-10px);
+}
+.navbar label{
+    display: none;
+}
+.navbar input{
+    display: none;
+}
+.nav div{
+    margin: 0px 20px;
+}
+.nav div:first-child {
+   border-bottom: 2px solid #F66F4D ;
+}
+.navbar button{
+    border: 1px solid #F66F4D;
+    color: #F66F4D;
+    border-radius: 15px;
+}
+.button {
+    padding: 5px 12px;
+    margin-left: 300px;
+    border-radius: 15px;
+    border: 1px solid red;
+}
+.button span{
+    color: red;
+}
+.discover{
+    display: flex;
+    width: 100%;
+    margin: 5% 0;
+}
+.discover-img-person{
+    background-color: #ffd484;
+    border-radius: 50%;
+    animation-name: store;
+    animation-duration: 2s;
+}
+
+.discover-img-person img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-top: 5%;
+    z-index: -1;
+}
+.discover-content h3{
+    font-size: 3.2rem;
+    margin-left: 16%;
+}
+.discover-content p{
+    margin-left: 16%;
+    padding-right: 20%;
+}
+
+.dubai-moruvumi{
+    z-index: 1;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: -5%;
+}
+
+.dubai-moruvumi-icon img{
+    margin: 0 -9%;
+}
+.dubai img{
+    width: 10px;
+    height: 10px;
+}
+.dubai{
+    background-color: white;
+    display: inline;
+    padding: 2px;
+    box-shadow: 4px 3px rgb(240, 242, 243);
+    position: absolute;
+    margin-top: -80%;
+    margin-left: 45%;
+}
+
+.dubai-moruvumi-icon span{
+    background-color: white;
+    padding: 2%;
+}
+.whare {
+    padding: 1% 0;
+    border-radius: 50px;
+    display: flex;
+    width: 55%;
+    margin: auto;
+    background-color: white;
+}
+.whare h2{
+    margin: -1% 0;
+}
+.whare  img{
+    width: 10px;
+    height: 10px;
+}
+.whare div:last-child img{
+    width: 40px;
+    height: 40px;
+}
+.whare div{
+    padding: 0px 20px;
+}
+
+.categories{
+    display: flex;
+    width: 100%;
+}
+.categories img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.categories div{
+    width: 50%;
+    margin-left: 20%;  
+}
+ 
+.categories h2{
+    font-size: 3rem;
+
+}
+
+.categories div:last-child img{
+    border: 2px solid;
+    padding: 1%;
+    border-radius: 50%;
+    right: 1px;
+    margin: 19% 0 0 0 ;
+}
+.visite{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+.visite div{
+    margin: 1%;
+    width: 16.66%;
+}
+
+.stories{
+    display: flex;
+    width: 100%;
+}
+.stories-img{
+    width: 50%;
+}
+.stories-content {
+    width: 50%;
+}
+.stories-content p{
+    margin-right: 10%;
+}
+
+
+.our-stories-pop-1 div img{
+    width: 20px;
+    height: 20px;
+}
+.our-stories-pop-1 div{
+    display: inline;
+    padding: 1%;
+    border-radius: 50%;
+    margin-left: 30%;
+    background-color: #ffd484;
+}
+.our-stories-pop-1{
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    padding: 1% 0;
+    width: 100px;
+    margin-top: -18%;
+    border-radius: 10px;
+    margin-left: 10%;
+    box-shadow: 2px 3px  rgb(237, 238, 239);
+}
+.our-stories-pop-1 h3{
+    font-size: 1.3rem;
+    color: #F66F4D;
+    margin-left: 15%;
+}
+.our-stories-pop-1 p{
+    margin-left: 7%;
+}
+
+.stories-img-person{
+    background-color: #ffd484;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 48%;
+    animation-name: mahi;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.stories-img-person img{
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+}
+
+
+
+.experience{
+    display: flex;
+
+}
+.experience div{
+    background-color: white;
+    margin: 0px 2%;
+    text-align: center;
+    padding: 2%;
+    border-radius: 15px;
+
+}
+
+.experience div h3{
+    font-size: 2.4rem;
+    color: red;
+    margin: -1px 0;
+}
+
+
+.stories-content h4{
+    color: red;
+}
+.stories-content h2{
+    font-size: 2.4rem;
+    padding-right: 30%;
+}
+
+
+.cart{
+    width: 100%;
+    display: flex;
+
+}
+.cart div{
+    width: 30%;
+    margin: auto;
+    padding: 3%;
+    border: 3px solid white;
+}
+.cart div:hover{
+    animation-name: sam;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes sam{
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+  }
+
+.tour img{
+    width: 300px;
+    height: 200px;
+}
+.tour h3{
+    margin-bottom: -9px;
+}
+
+.tour h2{
+    font-size: 1.2rem;
+    display: inline;
+}
+.tour a{
+    border: 1px solid;
+    padding: 3px 5px;
+    border-radius: 15px;
+    margin-left: 40%;
+    background-color: black;
+    color: white;
+}
+
+
+.top-destinations{
+    text-align: center;
+}
+.top-destinations a{
+    border: 1px solid;
+    padding: 3px 7px;
+    border-radius: 15px;
+    transition: padding 2s;
+}
+.top-destinations a:hover{
+    padding: 10px 20px;
+}
+
+.top-destinations span{
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    padding: 3px 7px;
+    border-radius: 15px;
+}
+
+.Vientam{
+    margin-top: 30px;
+}
+.Vientam img{
+    position: relative;
+    margin-top: -220px;
+    z-index: -1;
+}
+.Vientam h2{
+    margin: 130px 0 0 10px;
+    color: white;
+}
+.Vientam p{
+    margin:  0 0 0 15px;
+    color: white;
+}
+.Vientam a{
+    border: 1px solid;
+    background-color: white;
+    padding: 3px 8px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+.destinations{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    clear: left;
+}
+.destinations div:first-child{
+    width: 25%;
+}
+.destinations div:nth-child(2){
+    width: 30%;
+}
+
+
+
+.destinations-2 img{
+    position: absolute ;
+    z-index: -1;
+}
+
+.destinations-2 a{
+    background-color: black;
+    padding: 1% 3%;
+    border-radius: 15px;
+    margin-left: 4%;
+    color: white;
+}
+
+.destinations-2 h2{
+    padding-top: 230%;
+    padding-left: 4%;
+    color: white;
+}
+.destinations-2 p{
+    padding-left: 5%;
+    color: white;
+}
+
+.destinations-3{
+    margin-left: 10px;
+    padding-left: 20px;
+    width: 45%;
+}
+
+.destinations-3-1 img{
+    position: absolute;
+    z-index: -1;
+}
+
+.destinations-3-1 h2{
+    margin: 100% 0 -5px 4%;
+    color: white;
+}
+.destinations-3-1 p{
+    margin-left: 6%;
+    color: white;
+}
+
+.destinations-3-1 a{
+    background-color: black;
+    padding: 1% 4%;
+    border-radius: 15px;
+    margin-left: 4%;
+    color: white;
+}
+
+.destinations-3-2{
+    display: flex;
+}
+.destinations-3-2 div{
+    margin-top: 15px;
+    margin-right: 94%;
+}
+.destinations-3-2 div img{
+    position: absolute;
+    z-index: -1;
+}
+
+.destinations-3-2 div h2{
+    margin-top: 160%;
+    color: white;
+}
+
+.destinations-3-2 div a{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    margin-left: 5%;
+    padding: 2% 7%;
+}
+.destinations-3-2 div p{
+    color: white;
+    margin-left: 6%;
+}
+
+
+.customer{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+}
+.customer div{
+    width: 50%;
+
+}
+
+.customer-img  div{
+    background-color: #F66F4D;
+    border: none;
+    border-radius: 55% 45%;
+    margin-left: 20%;
+    height: 410px;
+}
+.customer-img img{
+    padding-top: 5%;
+    margin-left: 5px;
+    height: 400px;
+    border-radius: 0 0 40% 40%;
+}
+.customer-about div img{
+    width: 40%;
+    height: 50px;
+}
+
+.customer-about h2{
+    font-size: 2.4rem;
+}
+
+.customer-about  div{
+    width: 80%;
+    background-color: white;
+    padding: 1% 7%;
+}
+.customer-about  div h3{
+    margin: -2% 0;
+}
+
+
+
+.sign-up {
+    text-align: center;
+    padding: 2% 5%;
+    margin: 3% 20%;
+    padding-bottom: 1%;
+    background-color: #ffd484;
+}
+.sign-up h2{
+    font-size: 2.5rem;
+}
+.sign-up p{
+    padding: 0 15%;
+    margin-top: -15px;
+}
+.sign-up input{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 30px;
+}
+.sign-up img{
+    background-color: white;
+    padding: 7px;
+    position: absolute;
+    border-radius: 30px;
+
+}
+
+
+.footer{
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+}
+
+
+.footer-menu{
+    display: flex;
+    width: 70%;
+}
+.footer-menu div{
+    padding: 6%;
+}
+.footer-img img{
+    width: 30px;
+    height: 30px; 
+}
+.footer-img img:last-child{
+    width: 100px;
+}
+.footer-img{
+    width: 30%;
+    text-align: center;
+    margin-top: 5%;
+    padding: 0;
+}
+.footer-img span{
+    font-size: 1.4rem;
+    
+}
+
+
+
+
+@media screen and  (max-device-width: 550px){
+    .nav{
+        display: none;
+    }
+
+    .navbar label{
+        display: block;
+    }
+    .button{
+        display: none;
+    }
+    .humburger img{
+        width: 30px;
+        height: 25px;
+        margin-left: 900%;
+    }
+    .hidme:checked ~ .nav {
+        display: block;
+    }
+    .nav{
+        background-color: black;
+        border-radius: 15px;
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 30%;
+    }  
+    .nav div span{
+        font-size: medium;
+        display: block;
+        color: white;
+        padding: 7% 0;
+     }
+    .discover{
+        display: block;
+    }
+    .dubai-moruvumi{
+        margin-top: -30%;
+        margin-left: 10%;
+    }
+    .whare{
+        width: 100%;
+        padding:10px 0;
+        margin-bottom: 2%;
+    }
+    .categories{
+        display: block;
+    }
+    .categories h2,p{
+        padding: 1px;
+    }
+    .categories div{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .categories div:last-child{
+        margin-top: -18%;
+    }
+    .visite{
+        margin-top: 12%;
+        display: block;
+    }
+    .visite div{
+        width: 100%;
+    }
+    .stories{
+        display: block;
+    }
+
+    .stories-img-person{
+        width: 75%;
+        margin-left: 15%;
+    }
+    .stories-content {
+        padding-left: 0px;
+        width: 100%;
+        margin-left: 10%;
+    }
+    .stories-img{
+        width: 100%;
+    }
+    .our-stories-pop-1{
+        margin-top: -50%;
+    }
+    .experience{
+        margin-left: -50px;
+    }
+
+    .cart{
+        display: block;
+        text-align: center;
+        
+    }
+    .cart div{
+        margin: 0;
+        padding: 2%;
+        width: 100%;
+
+    }
+    .destinations{
+        display: block;
+        text-align: center;
+        margin-left: 15%;
+    }
+    .destinations img{
+        width: 300px;
+        display: block;
+    }
+
+
+    .destinations-3-2{
+        display: block;
+        margin-top: 20%;
+    }
+    .destinations-3-2 div:last-child{
+        margin-top: 650%;
+        padding: 0;   
+    }
+    .destinations-3{
+        display: block;
+        margin-top: 60%;
+        padding: 0;
+    }
+    .destinations-2{
+        margin: 0;
+        padding: 0;
+    }
+   
+
+
+    .customer{
+        margin-top: 50%;
+        display: block;
+        width: 100%;
+    }
+    .customer div{
+        width: 87%;
+        margin-left:7%;
+        padding: 0%;
+        text-align: center;
+    }
+
+
+    .sign-up{
+        width: 100%;
+        margin: 0;
+        padding: 3% 0;
+    }
+    .footer{
+        display: block;
+    }
+
+    .footer-menu{
+        
+        display: block;
+        text-align: center;
+        width: 100%;
+        
+    }
+    .footer-img{
+        margin-left: 35%;
+    }
+
+}
+/* scroll */
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .discover-img-person{
+    animation-name: mahi;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes mahi{
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+  }
